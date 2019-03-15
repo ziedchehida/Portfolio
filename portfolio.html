@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zied Chehida</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   
+    <script src="main.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" type="text/css" media="screen" href="portfolio.css">
+
+</head>
+<body>
+    <aside>
+            <img src="IMG_20190311_214436_222.jpg">
+
+            <a href="#home"> <i class="material-icons"> home </i> <p> Home </p> </a>
+            <a href="#about"> <i class="material-icons"> person </i> <p> About </p> </a>
+            <a href="#folio"> <i class="material-icons"> image </i> <p> Folio </p> </a>
+            <a href="#contact"> <i class="material-icons"> mail </i> <p> Contact </p> </a>
+    </aside>
+
+    <main>
+        <header class="home" id="home"> <br> <br>
+             <h1> I'm Zied Chehida</h1>
+             <h5> Designer // Developer // Artist </h5>
+            <div class="cover"> </div>
+        </header>
+    </main>
+
+    <section class="about" id="about">
+        <h2> About Me</h2>
+        <p>
+            <span> Hello, I'm Zied </span> I'm Designer, develloper and an Artist, life long learner, and ready for new opportunities.
+            <br>I Love music, Arts all the beautiful creative things.
+        </p>
+        <p>
+            My preferance and skills are as temporary as every language i know, as fickle as every tool i use.
+            <br>As temporary as things that will be useless in 10 years.
+            <br>As fickle as things that can be learned by anyone.
+            <br>The things that last are not complete, they are in progress.
+            <br>So what i will tell you is that I'm in Progress.
+        </p>
+        <p>
+            I hold on to my methods loosely,
+            <br>embrace fexibility and modularity,
+            <br>am willing to learn,
+            <br>expect to be wrong,
+            <br>and an confident when i'm right.
+        </p>
+        <h3>My Skills</h3>
+
+        <p>HTML 5</p>
+        <div class="container">
+            <div class="skills HTML5">95%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills CSS">90%</div>
+        </div>
+
+        <p>Jquery</p>
+        <div class="container">
+            <div class="skills Jquery">70%</div>
+        </div>
+
+        <p>Bootstrap</p>
+        <div class="container">
+            <div class="skills Bootstrap">70%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills JavaScript">50%</div>
+        </div>
+    </section>
+
+    <section class="folio" id="folio">
+
+        <h2> Folio </h2>
+
+        <div class="container-car"> 
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">  
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+              
+             <div class="carousel-inner">
+
+                <div class="item active">
+                 <img src="gallery4.jpg">
+                </div>
+              
+                <div class="item">
+                 <img src="gallery5.jpg">
+                </div>
+                  
+                <div class="item">
+                 <img src="gallery6.jpg">
+                </div>
+
+                <div class="item">
+                 <img src="gallery7.jpg">
+                </div>
+
+                <div class="item">
+                     <img src="gallery8.jpg">
+                </div>
+            
+                 <div class="item">
+                    <img src="gallery11.jpg" >
+                 </div>
+             </div>
+
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+        </div>
+
+            <h3>Arts</h3>
+
+            <p> Because drawing art is the basis of art. A bad painter cannot draw. But one who draws well can always paint beautifully
+                <br>It's the same think for Designer and creators, is not what one sees but what one can make others see. It's also an ART.
+                <br>I sometimes think there is nothing so delightful as drawing, designing and develloping.
+            </p>
+
+    </section>
+
+    <section class="Contact" id="contact">
+
+        <h2>Contact</h2>
+
+        <div class="contact-container">
+
+                 <label for="fname">Your Name : </label>
+                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                 <label for="email">Your E.mail : </label>
+                 <input type="text" id="email" name="e.mail" placeholder="Your e.mail..">
+
+                 <label for="message"> Your Message : </label> <br>
+                 <textarea name="message" id="message" style="height:200px" ></textarea>
+                 <input type="submit" value="Message">   
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="bottom-bar">
+            <p>&copy | 2019 All right reserved</p>
+        </div>
+
+    </footer>
+</body>
+</html>
